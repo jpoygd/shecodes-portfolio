@@ -70,6 +70,16 @@ p {
   height: 100%;
 }
 
+.navbarPosition{
+  padding:50px;
+}
+
+.navbarStyle a, a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+}
+
 .fullHeight {
   height: 20%;
   width: auto;
@@ -114,6 +124,8 @@ p {
   height: 4rem;
   padding-left:1rem;
 }
+
+
 
 .formTextAreaHeight{
   height: 10rem;
