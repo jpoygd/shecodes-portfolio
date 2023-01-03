@@ -66,18 +66,28 @@ p {
   font-size: 10rem;
   font-weight: 600;
   line-height: 95%;
-  padding-top: 10%;
+  padding-top: 5%;
   height: 100%;
 }
 
 .navbarPosition{
   padding:50px;
 }
+.navbarStyle, .navbarStyle li {
+  display: flex;
+  font-family: var(--font-family);
+  font-weight: 600;
+  padding: 0px 20px;
+  margin: 0px;
+}
 
-.navbarStyle a, a:hover {
-  display: inline-block;
+.navbarStyle a {
   text-decoration: none;
   color:white;
+}
+
+.navbarStyle a:hover {
+  color:var(--primary-color);
 }
 
 .fullHeight {
