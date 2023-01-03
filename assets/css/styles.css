@@ -4,6 +4,8 @@
   --primary-color: #79e0da;
   --primary-color-opacity: #79e0dbb9;
   --primary-color-dark: #5eb7b2;
+  --dark-accent: #232327;
+  --light-accent:#747474;
   --font-family: "Poppins", sans-serif;
 }
 
@@ -24,6 +26,7 @@ p {
   font-family: var(--font-family);
   font-size: 1rem;
   line-height: 2rem;
+  font-weight:500;
 }
 
 .sectionPadding {
@@ -135,11 +138,47 @@ p {
   padding-left:1rem;
 }
 
-
-
 .formTextAreaHeight{
   height: 10rem;
   padding-left:1rem;
+}
+
+.footerBg, footer h2 {
+  background-color:var(--dark-accent);
+  font-weight: 700;
+  padding-top:30px;
+}
+
+.contactLinks li {
+  letter-spacing: 2px;
+  padding-right:50px;
+  font-family: var(--font-family);
+  color:white;
+  font-weight: 400;
+  list-style:none;
+}
+
+.contactLinks i {
+  padding-right:10px;
+}
+
+footer p{
+  color:var(--light-accent);
+  letter-spacing: 2px;
+}
+
+.footerIcons {
+  text-align: right;
+}
+
+.footerIcons i{
+  color:var(--light-accent);
+  font-size:1.5rem;
+  padding-right:20px;
+}
+
+.footerIcons i:hover {
+  color:var(--primary-color);
 }
 
 @media(max-width:1200px){
